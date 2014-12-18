@@ -85,7 +85,7 @@ public class Main {
 		// TODO Auto-generated method stub
 
 	try{
-		FileInputStream fstream = new FileInputStream("C:\\Users\\SkD\\Documents\\EclipsePrj\\BinaryTree\\expressions.txt");
+		FileInputStream fstream = new FileInputStream("expressions.txt");
 	    DataInputStream in = new DataInputStream(fstream);
 	    BufferedReader br = new BufferedReader(new InputStreamReader(in));
 	    String strLine;
